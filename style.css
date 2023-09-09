@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display',serif;
+    background: url('images/pattern-background-desktop.svg') no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem; 
+}
+
+.card-container {
+    color: hsl(223, 47%, 23%);
+    background-color:hsl(225, 100%, 98%);
+  
+    width: 80%; 
+    max-width: 400px;
+  
+    text-align: center; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    text-align: center;
+   
+   
+    
+}
+.card{
+    margin: 0  auto 2rem;
+}
+
+
+.img{
+    width: 100%;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+ p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    
+    text-align: center;
+    margin:0 2rem;
+}
+
+.small_card {
+    background-color:hsl(270, 5%, 92%);
+    border-radius: 7px;
+    margin: 2rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+
+
+.small_card img {
+    width: 40px; 
+   background-color: hsl(225, 100%, 94%);
+    height: 40px;
+    border-radius: 50%; 
+    margin-right: 10px;
+  
+}
+
+.title_small,
+.price_tag,
+a {
+    flex: 1; 
+    text-align: center; 
+}
+
+.btn .btn_payment {
+    width: 80%;
+    border: 0;
+    outline: 0;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 1.75rem;
+    box-shadow: 0px 4px 15px 2px hsl(245, 75%, 52%);
+}
+
+.cancel:nth-child(2) {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    margin-top: 10px;  
+}
+
+
+@media only screen and (max-width: 550px) {
+    body{
+        background-image: url('images/pattern-background-mobile.svg') no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+}
+
+
+
+
